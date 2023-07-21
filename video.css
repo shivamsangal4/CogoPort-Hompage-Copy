@@ -1,0 +1,46 @@
+.video_container
+{
+    position: relative;
+    height: 450px;
+    cursor: pointer;
+}
+.video_thumbnail
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.video_play
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.4);
+}
+.video_heading h3
+{
+    padding: 25px 0;
+    color: white;
+}
+.video_caption 
+{
+    background:red;
+}
+.video_caption_container
+{
+    color: white;
+    width: 1200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}

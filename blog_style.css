@@ -1,0 +1,133 @@
+.blog 
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+.blog_container
+{
+    display: flex;
+    flex-direction: column;
+}
+.blog_heading
+{
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+}
+.blog_cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.blog_card
+{
+    width: calc(calc(100% / 3) - 20px);
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-align: start;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px hsla(0,0%,79%,.5);
+}
+.blog_img
+{
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: #fbdc00;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.blog_read_more
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog_card_content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+.blog_title{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.blog_subtitle
+{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.blog_p 
+{
+    max-height: calc(1.4rem * 3);
+    overflow: hidden;
+    font-size: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #000;
+}
+.blog_date
+{
+    margin-bottom: 5px;
+    font-size: 14px!important;
+    font-weight: 700;
+    color: gray;
+}
+.blog_button 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.blog_a 
+{
+    color: var(--font-color-link);
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    --layout-topbar: 56px;
+    --layout-startbar: 200px;
+}
+.blog_button_style
+{
+    color: #fff;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    min-width: 72px;
+    height: 36px;
+    width: fit-content;
+    padding: 8px 42px!important;
+    font-family: var(--font-family);
+    font-size: 14px!important;
+    font-weight: 700!important;
+    border-radius: 4px;
+    outline: none;
+    transition: color .1s linear,background-color .1s linear,border-color .1s linear;
+    will-change: color,background-color,border-color;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2; 
+}
+.blog_span{
+color: white;
+}
