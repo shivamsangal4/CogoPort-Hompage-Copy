@@ -1,0 +1,64 @@
+.nav_bar_main
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 8999;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: var(--layout-topbar);
+    padding: 8px 16px;
+    font-family: var(--font-family-heading);
+    font-weight: 500;
+    color: var(--font-color-heading);
+    background: #fbdc00;
+}
+.nav_bar
+{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: var(--font-family-heading);
+    font-weight: 500;
+    color: var(--font-color-heading);
+}
+.logo
+{
+    display: flex;
+    flex-shrink: 0;
+    margin-left: auto;
+    cursor: pointer;
+    font-family: var(--font-family-heading);
+    font-weight: 500;
+    color: var(--font-color-heading);
+}
+.nav_button
+{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav_li
+{
+    margin-left: 20px;
+    border-radius: 4px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    font-family: var(--font-family-heading);
+    font-weight: 500;
+    color: var(--font-color-heading);
+}
+.nav_ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
